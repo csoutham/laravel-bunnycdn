@@ -13,7 +13,7 @@ use Katzen48\LaravelBunnyCdn\Filesystem\BunnyCDNStorage;
 use League\Flysystem\Config;
 use PlatformCommunity\Flysystem\BunnyCDN\Util;
 
-class BunnyCdnAdapter extends \PlatformCommunity\Flysystem\BunnyCDN\BunnyCDNAdapter
+class BunnyCDNAdapter extends \PlatformCommunity\Flysystem\BunnyCDN\BunnyCDNAdapter
 {
     public function __construct(BunnyCDNStorage $bunnyCDNStorage)
     {
